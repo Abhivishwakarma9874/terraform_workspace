@@ -48,3 +48,19 @@ You can apply this plan to save these new output values to the Terraform state, 
 
 Note: You didn't use the -out option to save this plan, so Terraform can't guarantee to take exactly these actions if you run
 "terraform apply" now.
+
+step7:- jo apan ne use kia dynamic 
+ncs@ncs-devops-6:~/terraform/map-variable$ terraform plan
+var.username
+  Enter a value: Abhishek
+
+
+Changes to Outputs:
+  + usersage = "my name is Abhishek and my age is 23"
+
+You can apply this plan to save these new output values to the Terraform state, without changing any real infrastructure.
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Note: You didn't use the -out option to save this plan, so Terraform can't guarantee to take exactly these actions if you run
+"terraform apply" now.
