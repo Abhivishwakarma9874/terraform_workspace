@@ -98,3 +98,16 @@ Note: You didn't use the -out option to save
 this plan, so Terraform can't guarantee to take
 exactly these actions if you run "terraform
 apply" now.
+
+step:9
+terraform plan -var-file=development.tfvars
+
+Changes to Outputs:
+  + printname = "Hello, Depalpurwala,your age is 22"
+
+You can apply this plan to save these new output values to the Terraform state, without changing any real infrastructure.
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Note: You didn't use the -out option to save this plan, so Terraform can't guarantee to take exactly these actions if you run
+"terraform apply" now.
